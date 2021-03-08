@@ -1,11 +1,11 @@
 # week1
-1) Find the Processes running on a linux machine : ps -aux or top\
-2) Find the users currently logged in : $who\
-3) Find the RAM usage : /proc/meminfo or free\
-4) Find the disk usage : df\
-5) Find the inode usage : df -i\
-6) Find the ulimit of a user : ulimit -Sa (showing soft limit) ; ulimit -Ha (showing hard limit)\
-7) Find the ulimit of a process : cat /proc/PID/limits\
+1) Find the Processes running on a linux machine : ps -aux or top \
+2) Find the users currently logged in : $who \
+3) Find the RAM usage : /proc/meminfo or free \
+4) Find the disk usage : df \
+5) Find the inode usage : df -i \ 
+6) Find the ulimit of a user : ulimit -Sa (showing soft limit) ; ulimit -Ha (showing hard limit)  \
+7) Find the ulimit of a process : cat /proc/PID/limits \
 8) Find the file descriptors used by a process : lsof -a -p PID\
 9) Find the top 5 processes by memory usage : ps aux | sort -nk +4 | tail -n 5\
 10) Find the top 5 processes by cpu usage : ps aux | sort -nrk 3,3 | head -n 5\
