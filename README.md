@@ -1,5 +1,5 @@
 # week1
-Find the Processes running on a linux machine : ps -aux or top 
+Find the Processes running on a linux machine : -n ps -aux or top 
 Find the users currently logged in : $who
 Find the RAM usage : /proc/meminfo or free
 Find the disk usage : df
